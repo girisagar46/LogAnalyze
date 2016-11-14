@@ -12,6 +12,8 @@ import java.util.List;
 /**
  * Created by linuxsagar on 10/21/16.
  */
+
+
 public class LogCatchMapper extends Mapper<LongWritable, Text, Text, Text>{
 
     private String word;

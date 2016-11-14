@@ -122,3 +122,10 @@ d in Syncs: 0 Number of syncs: 5 SyncTimes(ms): 288
  in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 89
 2016-11-14 18:59:05,932 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/opt/hadoop/hadoopData/name/current/edits.new
 2016-11-14 18:59:05,932 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/opt/hadoop/hadoopData/name/current/edits.new
+----sample error lines----
+2016-11-14 18:53:59,310 ERROR org.apache.hadoop.error.impl.MetricsConfig: Error One
+2016-11-14 18:53:59,323 ERROR org.apache.hadoop.error.impl.MetricsSourceAdapter: Error two
+2016-11-14 18:53:59,324 ERROR org.apache.hadoop.error.impl.MetricsSystemImpl: Error three
+2016-11-14 18:53:59,324 ERROR org.apache.hadoop.error.impl.MetricsSystemImpl: Error four
+2016-11-14 18:53:59,491 ERROR org.apache.hadoop.error.impl.MetricsSourceAdapter: Error five
+2016-11-14 18:53:59,495 ERROR org.apache.hadoop.error.impl.MetricsSystemImpl: Source name ugi already exists!

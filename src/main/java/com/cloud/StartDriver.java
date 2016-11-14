@@ -19,7 +19,7 @@ import java.util.Scanner;
 public class StartDriver {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
 
-        String input = "input/wordLineList.csv";
+        String input = "input/namenode.log";
 
         Configuration configuration = new Configuration();
         Job wordLineCatcher = Job.getInstance(configuration);
@@ -36,7 +36,7 @@ public class StartDriver {
         wordLineCatcher.setMapperClass(LogCatchMapper.class);
 
         wordLineCatcher.setJarByClass(StartDriver.class);
-        wordLineCatcher.setJobName("Hadoop Word Line Catcher");
+        wordLineCatcher.setJobName("Hadoop Error log analyzer");
 
         wordLineCatcher.waitForCompletion(true);
     }

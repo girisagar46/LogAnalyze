@@ -1,0 +1,4 @@
+#!/bin/bash
+#hadoop fs -mkdir -p input
+#hadoop fs -put <filename> <hadoop_directory>
+#hadoop jar <jarfilename> <MainClassname>
